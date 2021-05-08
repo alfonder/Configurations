@@ -1186,7 +1186,7 @@
   //#define TURBO_BACK_MENU_ITEM
 
   // Add a mute option to the LCD menu
-  //#define SOUND_MENU_ITEM
+  #define SOUND_MENU_ITEM
 
   /**
    * LED Control Menu
@@ -3502,7 +3502,7 @@
 
 // Support for MeatPack G-code compression (https://github.com/scottmudge/OctoPrint-MeatPack)
 //#define MEATPACK_ON_SERIAL_PORT_1
-//#define MEATPACK_ON_SERIAL_PORT_2
+#define MEATPACK_ON_SERIAL_PORT_2
 
 //#define GCODE_CASE_INSENSITIVE  // Accept G-code sent to the firmware in lowercase
 
